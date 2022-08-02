@@ -38,8 +38,11 @@
     position: absolute;
     left: 50px;
     top: 15px;
+    animation: cloud 6s infinite linear alternate;
 }
-@keyframes icloud {
-    
+@keyframes cloud {
+    0% {transform: translate(0px);}
+    100% {transform: translate(-100px);}
     
 }
+.
