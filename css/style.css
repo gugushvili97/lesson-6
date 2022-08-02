@@ -5,3 +5,31 @@
     width: 100%;
     height: 100vh;
 }
+.biker{
+    width: 200px;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    animation: biker 9s infinite alternate;
+}
+@keyframes biker {
+    0% {left: 0px;}
+    20% {left: 200px;}
+    40% {left: 400px}
+    60% {left: 600px}
+    80% {left: 800px}
+    100% {left: 1000px;}
+    
+}
+.sun {
+    width: 145px;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    animation: sun 6s infinite alternate;
+}
+@keyframes sun {
+    0% {transform: rotate(0deg);}
+    30% {transform: rotate(25deg);}
+    60% {transform: rotate(-25deg);}
+}
