@@ -33,3 +33,13 @@
     30% {transform: rotate(25deg);}
     60% {transform: rotate(-25deg);}
 }
+.cloud {
+    width: 400px;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+}
+@keyframes icloud {
+    
+    
+}
