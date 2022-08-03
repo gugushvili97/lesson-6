@@ -45,4 +45,16 @@
     100% {transform: translate(-100px);}
     
 }
-.
+.birds {
+    width: 200px;
+    right: 20px;
+    top: 42px;
+    z-index: 20px;
+}
+@keyframe birds {
+    0% {transform: translate(0px)}
+    100% {transform:translate(-153px)}
+    
+}
+
+
